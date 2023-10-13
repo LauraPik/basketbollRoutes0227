@@ -1,0 +1,14 @@
+.container{
+    
+    font-family: Roboto;
+}
+img[src*="11"]{
+    width: 28rem;
+}
+.p{
+    color: #6f7CB2;
+    font-size: 16px;
+}
+.have{
+    font-style: italic;
+}

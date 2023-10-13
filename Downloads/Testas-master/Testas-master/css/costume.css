@@ -1,0 +1,135 @@
+*{
+    font-family: nunito;
+}
+.p-5 img[src*="Logomark2"]{
+    background-color: #84CC16;
+    padding: 22px;
+    border-radius: 30px;
+    box-shadow: 0px 16px 32px 0px rgba(132, 204, 22, 0.25); 
+}
+#mockup{
+    margin-top: -4rem;
+    margin-right: -7rem;    
+}
+.p-5 img[src*="Solid"]{
+    background-color: white;
+    padding: 22px;
+    border-radius: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);  
+
+}
+#span{
+   color: #84CC16; 
+   font-weight: bolder;
+   font-size: 90px;
+   font-style: normal;
+    line-height: 68px;
+    letter-spacing: -1.8px; 
+   
+}
+img[src*="Monotone"]{
+    padding-right: 0.5rem;
+}
+/**************** main***********/
+header{
+    background-image: url(../css/IMG/BGbg.png);
+    background-color: linear-gradient(to right,white 50%, lightgray 50%);
+    background-position-x:right;
+    background-repeat: no-repeat; 
+}
+.col-lg-5 h3{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 113%; /* 113.333% */
+    margin-top: 5rem;
+}
+.col-lg-5 p{
+    color: var(--osler-gray-60, #647067);
+    /* Paragraph/2xl */
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.4px */
+    letter-spacing: -0.24px; 
+}
+.col p .col-m-1 p{
+    /* Label/md */
+    font-size: 10px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+     
+}
+#down{
+    margin-top: 2.5rem;
+    border-radius: 24px;
+    background: #2F3C33;
+    height: 64px;
+    padding: 24px 74px;
+    margin-left: -4rem;
+    text-decoration: none;
+    color: var(--osler-gray-white, #FFF);
+    /* Text lg/ExtraBold */
+        font-family: Nunito;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: -0.36px;
+}
+.down{
+    margin-top: 2.5rem;
+    margin-left: 11.5rem;
+}
+#img1{
+    position: relative;
+}
+div .img-fluid{
+    position: absolute;
+    margin-right: -3rem;
+    margin-top: 10rem;
+}
+div .heart{
+    position: absolute;
+    margin-top: 25rem;
+    margin-right: -1rem;
+
+}
+.dr{
+    position: absolute;
+    margin-top: 27rem;
+    margin-right: 18rem;
+
+}
+.scroll{
+    position: relative;
+}
+#scroll{
+    position: absolute;
+    color: var(--osler-gray-80, #2F3C33);
+/* Label/sm */
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    margin-top: 17rem;
+    margin-right: 8rem;
+}
+/**********section1*******************/
+.container1 {
+    margin: 2rem;
+    border-radius: 180px;
+    background: var(--osler-gray-80, #2F3C33);
+
+}
+.col .mission{
+    margin: 2rem;
+    margin-left: 0;
+}
