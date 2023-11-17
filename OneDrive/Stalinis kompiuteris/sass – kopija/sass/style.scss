@@ -1,0 +1,30 @@
+
+
+
+div{
+    #third{
+        
+        background-color: white;
+        font-size: small;
+        padding: 2rem;
+        width: 20rem;
+        border-radius: 15px 15px;
+    }
+    
+}
+.carousel-inner{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#carouselExample{
+    margin-top: 12rem;
+    background-image: linear-gradient(to right, yellow , red);
+    height: 15rem;
+    .carousel-inner{
+        padding: 4rem;
+        
+    }
+    
+    
+}
