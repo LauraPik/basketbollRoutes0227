@@ -1,0 +1,19 @@
+.week-weather-container-one{
+    justify-content: space-between;
+    
+    
+    .week-weather-img-one{
+        width: 2.25rem;
+        height: 2.25rem;
+        flex-shrink: 0;   
+    }
+
+    .week-weather-day-one, .week-weather-degree-one{
+        color: #FFF;      
+        font-family: PingFang SC;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.25rem; /* 125% */
+    }
+}

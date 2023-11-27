@@ -1,0 +1,18 @@
+.week-weather-container-seven{
+    justify-content: space-between;
+    
+    .week-weather-img-seven{
+        width: 2.25rem;
+        height: 2.25rem;
+        flex-shrink: 0;   
+    }
+    
+    .week-weather-day-seven, .week-weather-degree-seven{
+        color: #FFF;      
+        font-family: PingFang SC;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.25rem; /* 125% */
+    }
+}

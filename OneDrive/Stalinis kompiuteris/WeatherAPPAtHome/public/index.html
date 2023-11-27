@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" class="rel">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>weatherAPP</title>
+</head>
+<body>
+<div class="container-fluid">
+<div class="container">
+    <header>
+    <div>
+        <label for="city-choice" class="form-label text-white">Suveskite miestą:</label>
+        <input class="form-control" list="city-name" id="city-choice" placeholder="Iveskite...">
+        <datalist id="city-name">
+          <option value="Kaunas"></option>
+          <option value="Vilnius"></option>
+          <option value="Alytus"></option>
+          <option value="Klaipėda"></option>
+          
+        </datalist> 
+</datalist>
+</div>
+    </header>
+<main>
+    <section id="hide">
+        <div class="row section-row flex-column justify-content-center align-items-center flex-md-row justify-content-sm-between">
+            <div class="section-One-Border col-7 col-sm-2">
+                <div class="section-one-city d-flex justify-content-between">
+                <h6 class="section-one-city-Zero">Kaunas</h6>
+                <p class="section-one-time-Zero time">09:30</p>
+                </div>
+                <p class="d-flex flex-column section-One-img weather"><img class="section-one-img-Zero" src="./css/icons/clouds.png" alt="weather icon">Debesuota</p>
+                <p class="section-One-degree degree">-5&deg</p>
+            </div>
+            <div class="col col-7 col-sm-2 section-two">
+                <div class="d-flex justify-content-between section-two-city">
+                    <h6 class="section-two-city-One">Kaunas</h6>
+                    <p class="section-two-time-One time">09:30</p>
+                  </div>
+                  <p class="d-flex flex-column section-two-img weather"><img  class="section-two-img-One" src="./css/icons/clouds.png"alt="weather icon">Debesuota</p>
+                    <p class="section-two-degree-One degree">-5&deg</p>
+            </div>
+            <div class="col-7 col-sm-2 section-three">
+                <div class="d-flex justify-content-between section-three-city">
+                    <h6 class="section-three-city-Two">Kaunas</h6>
+                    <p class="section-three-time-Two time">09:30</p>
+                  </div>
+                  <p class="d-flex flex-column section-three-img weather"><img src="./css/icons/clouds.png" class="section-three-img-Two" alt="weather icon">Debesuota</p>
+                    <p class="section-three-degree-Two degree">-5&deg</p>
+              </div>
+            <div class="col-7 col-sm-2 section-four">
+                <div class="d-flex justify-content-between section-four-city">
+                    <h6 class="section-four-city-Three">Kaunas</h6>
+                    <p class="section-four-time-Three time">09:30</p>
+                  </div>
+                  <p class="d-flex flex-column section-four-img weather"><img src="./css/icons/clouds.png" class="section-four-img-Three" alt="weather icon">Debesuota</p>
+                    <p class="section-four-degree-Three degree">-5&deg</p>
+            </div>
+          </div>
+    </section>
+    <section class ="week-weather d-none">
+      <div class="row week-weather-row">
+        <div class="d-flex week-weather-container-one">
+          <h5 class="week-weather-day-one day">Today</h5>
+          <div class="week-weather-img-bg">
+          <img class="week-weather-img-one" src="./css/icons/clear.png" alt="icon">
+        </div>
+          <p class="week-weather-degree-one degreeOne">-5&deg</p>
+        </div>
+        <div class="d-flex week-weather-container-two">
+          <h5 class="week-weather-day-two day">Today</h5>
+          <img class="week-weather-img-two" src="./css/icons/clear.png" alt="icon">
+          <p class="week-weather-degree-two degreeOne">-5&deg</p>
+        </div>
+        <div class="d-flex week-weather-container-three">
+          <h5 class="week-weather-day-three day">Today</h5>
+          <img class="week-weather-img-three" src="./css/icons/clear.png" alt="icon">
+          <p class="week-weather-degree-three degreeOne">-5&deg</p>
+        </div>
+        <div class="d-flex week-weather-container-four">
+          <h5 class="week-weather-day-four day">Today</h5>
+          <img class="week-weather-img-four" src="./css/icons/clear.png" alt="icon">
+          <p class="week-weather-degree-four degreeOne">-5&deg</p>
+        </div>
+        <div class="d-flex week-weather-container-five">
+          <h5 class="week-weather-day-five day">Today</h5>
+          <img class="week-weather-img-five" src="./css/icons/clear.png" alt="icon">
+          <p class="week-weather-degree-five degreeOne">-5&deg</p>
+        </div>
+        <div class="d-flex week-weather-container-six">
+          <h5 class="week-weather-day-six day">Today</h5>
+          <img class="week-weather-img-six" src="./css/icons/clear.png" alt="icon">
+          <p class="week-weather-degree-six degreeOne">-5&deg</p>
+        </div>
+        <div class="d-flex week-weather-container-seven">
+          <h5 class="week-weather-day-seven day">Today</h5>
+          <img class="week-weather-img-seven" src="./css/icons/clear.png" alt="icon">
+          <p class="week-weather-degree-seven degreeOne">-5&deg</p>
+        </div>
+      </div>
+    </section>
+</main>
+</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
