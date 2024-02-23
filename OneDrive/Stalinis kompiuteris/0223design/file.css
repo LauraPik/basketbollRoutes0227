@@ -1,0 +1,35 @@
+#color{
+    background-color: #264ECA;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+}
+
+.container{
+    width: 300px;
+}
+
+form .btn{
+    
+    text-align: center;
+    width: 320px;
+    display: flex;
+    background-color: white;
+}
+form .form-group {
+    display: flex;
+    justify-content: center;
+}
+
+form .form-group input{
+    justify-content: center;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 300px;
+    
+}
